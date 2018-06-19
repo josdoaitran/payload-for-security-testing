@@ -4,7 +4,7 @@ A SQL injection attack consists of insertion or "injection" of a SQL query via t
 
 ## _Authentication Bypass_
 
-'''
+```
 '-'
 ' '
 '&'
@@ -29,7 +29,7 @@ A SQL injection attack consists of insertion or "injection" of a SQL query via t
 " or ""*"
 or true--
 
-'''
+```
 
 ## _SQL Injection using SQLMap_
 
