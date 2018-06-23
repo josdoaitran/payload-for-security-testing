@@ -6,4 +6,4 @@ List out all of payload for security testing
 _SQL Injection_
 
 _XSS_ 
-![](icon.png) [Xem đáp án tại đây](Q1.md)
+![10x10](icon.png) [Xem đáp án tại đây](Q1.md)
