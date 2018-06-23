@@ -6,4 +6,4 @@ List out all of payload for security testing
 _SQL Injection_
 
 _XSS_ 
-![](icon.png =20x20) [Xem đáp án tại đây](Q1.md)
+![](https://github.com/josdoaitran/PayloadForSecurityTesting/blob/master/icon.png =10x10) [Xem đáp án tại đây](Q1.md)
