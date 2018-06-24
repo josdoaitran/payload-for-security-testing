@@ -5,8 +5,8 @@ List out all of payload for security testing
 
 _SQL Injection_
 
-_XSS_ 
-[_XSS_] (XSS.md)
+
+[XSS](XSS.md)
 
 <img src="icon.png" width="30">
 
