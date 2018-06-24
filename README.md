@@ -5,7 +5,7 @@ List out all of payload for security testing
 
 [_SQL Injection_](SQLInjection.md)
 
-<img src="sql injection.png" width="=90">
+<img src="sql injection.png" width="120">
 
 [_XSS_Cross Site Sripting](XSS.md)
 
