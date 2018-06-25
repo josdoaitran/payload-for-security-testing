@@ -10,6 +10,19 @@ List out all of payload for security testing
 [_2. XSS-Cross Site Sripting_](XSS.md)
 
 
+## Top 10 OWASP
+
+Link: https://www.owasp.org/index.php/Top_10-2017_Top_10
+A1:2017 - Injection
+A2:2017 - Broken Authentication
+A3:2017 - Sensitive Data Exposure
+A4:2017 - XML External Entities (XXE)
+A5:2017- Broken Access Control
+A6:2017 - Security Misconfiguration
+A7:2017 - Cross-Site Scripting (XSS)
+A8:2017 - Insecure Deserialization
+A9:2017 - Using Components with Known Vulnerabilities
+A10:2017 - Insufficient Logging & Monitoring
 
 ## Tools
 * [Kali Linux](https://www.kali.org/)
@@ -45,7 +58,9 @@ List out all of payload for security testing
 
 <img src="icon.png" width="30"> 
 
-## Question
+## Questions:
+
+
 
 ## References:
 - https://github.com/swisskyrepo/PayloadsAllTheThings
