@@ -56,6 +56,13 @@ Link: https://www.owasp.org/index.php/Top_10-2017_Top_10
 * [PentesterLab : Learn Web Penetration Testing: The Right Way](https://pentesterlab.com/)
 * [Hackers.gg](hackers.gg)
 
+## Vulnerabilities Scanning tools
+
+* [Zap OWASP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project)
+* [Uniscan](https://tools.kali.org/web-applications/uniscan)
+
+
+
 <img src="icon.png" width="30"> 
 
 ## Questions:
