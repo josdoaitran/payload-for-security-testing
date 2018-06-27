@@ -14,6 +14,7 @@ Encoding and double encoding:
 %252e%252e%255c represents ..\ 
 ..%255c represents ..\ and so on. 
 ,,,
+
 # Reference
 
 * https://www.owasp.org/index.php/Path_Traversal
