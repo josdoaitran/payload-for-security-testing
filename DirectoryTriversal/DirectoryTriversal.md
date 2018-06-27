@@ -3,6 +3,7 @@ See the OWASP Testing Guide article on how to Test for Path Traversal Vulnerabil
 Description
 Request variations
 Encoding and double encoding:
+
 ‘’’
 %2e%2e%2f represents ../
 %2e%2e/ represents ../
