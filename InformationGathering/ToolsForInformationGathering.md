@@ -35,7 +35,14 @@ ai.google.com
 IPv6 address #1: 2404:6800:4005:802::200e
 
 ```
+* DNS Enum
+```
+dnsenum [Url]
+```
+_Example_
+```
 
+```
 ### Network and port scanner
 * nmap
 
