@@ -9,6 +9,7 @@
 * DNS Map
 ```
 dnsmap [url]
+dnsmap [url] -r [output directory]
 ```
 _Example_
 ```
