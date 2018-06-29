@@ -41,7 +41,27 @@ dnsenum [Url]
 ```
 _Example_
 ```
+oaitran@kali:~$ dnsenum google.com 
+Smartmatch is experimental at /usr/bin/dnsenum line 698.
+Smartmatch is experimental at /usr/bin/dnsenum line 698.
+dnsenum VERSION:1.2.4
 
+-----   google.com   -----
+
+
+Host's addresses:
+__________________
+
+google.com.                              212      IN    A        216.58.199.14
+
+
+Name Servers:
+______________
+
+ns2.google.com.                          10870    IN    A        216.239.34.10
+ns1.google.com.                          17697    IN    A        216.239.32.10
+ns3.google.com.                          17697    IN    A        216.239.36.10
+ns4.google.com.                          21595    IN    A        216.239.38.10
 ```
 ### Network and port scanner
 * nmap
