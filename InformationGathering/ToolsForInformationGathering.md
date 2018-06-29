@@ -89,6 +89,10 @@ oaitran@kali:~$ dnsrecon -t std -d google.com
 [*] Removing any duplicate NS server IP Addresses...
 [*] ...  
 ```
+* WhatWWeb
+```
+  whatweb [url]
+```
 ### Network and port scanner
 * nmap
 
