@@ -10,5 +10,12 @@
 ```
 dnsmap [url]
 ```
+_Example_
+```
+
+```
 
 ### Network and port scanner
+* nmap
+
+* 
