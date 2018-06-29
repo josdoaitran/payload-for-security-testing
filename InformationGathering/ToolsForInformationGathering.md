@@ -63,6 +63,31 @@ ns1.google.com.                          17697    IN    A        216.239.32.10
 ns3.google.com.                          17697    IN    A        216.239.36.10
 ns4.google.com.                          21595    IN    A        216.239.38.10
 ```
+* DNS Recon
+```
+  dnsrecon -t std -d  [url]
+  dnsrecon -t axfr -d [url]
+```
+_Example_
+```
+oaitran@kali:~$ dnsrecon -t std -d google.com
+[*] Performing General Enumeration of Domain: google.com
+[*] Checking for Zone Transfer for google.com name servers
+[*] Resolving SOA Record
+[+] 	 SOA ns1.google.com 216.239.32.10
+[*] Resolving NS Records
+[*] NS Servers found:
+[*] 	NS ns1.google.com 216.239.32.10
+[*] 	NS ns1.google.com 2001:4860:4802:32::a
+[*] 	NS ns3.google.com 216.239.36.10
+[*] 	NS ns3.google.com 2001:4860:4802:36::a
+[*] 	NS ns4.google.com 216.239.38.10
+[*] 	NS ns4.google.com 2001:4860:4802:38::a
+[*] 	NS ns2.google.com 216.239.34.10
+[*] 	NS ns2.google.com 2001:4860:4802:34::a
+[*] Removing any duplicate NS server IP Addresses...
+[*] ...  
+```
 ### Network and port scanner
 * nmap
 
