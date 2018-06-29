@@ -67,6 +67,7 @@ ns4.google.com.                          21595    IN    A        216.239.38.10
 ```
   dnsrecon -t std -d  [url]
   dnsrecon -t axfr -d [url]
+  dnsrecon -t tld -d [url]
 ```
 _Example_
 ```
