@@ -11,3 +11,12 @@ git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
 ```
 
 ## Basic Command
+
+To get a list of basic options and switches use:
+```
+python sqlmap.py -h
+```
+To get a list of all options and switches use:
+```
+python sqlmap.py -hh
+```
