@@ -94,6 +94,7 @@ oaitran@kali:~$ dnsrecon -t std -d google.com
   whatweb [url]
 ```
 _Example_ 
+```
 oaitran@kali:~$ whatweb google.com
 http://google.com [301 Moved Permanently] Country[UNITED STATES][US], HTTPServer[gws], IP[216.58.199.14], RedirectLocation[http://www.google.com/], Title[301 Moved], X-Frame-Options[SAMEORIGIN], X-XSS-Protection[1; mode=block]
 http://www.google.com/ [200 OK] Cookies[1P_JAR,NID], Country[UNITED STATES][US], HTML5, HTTPServer[gws], HttpOnly[NID], IP[216.58.199.4], Script, Title[Google], X-Frame-Options[SAMEORIGIN], X-XSS-Protection[1; mode=block]
