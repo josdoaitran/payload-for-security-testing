@@ -127,6 +127,10 @@ facebook.com.		266	IN	A	157.240.13.35
 ;; WHEN: Sun Jul 01 11:15:43 +07 2018
 ;; MSG SIZE  rcvd: 57
 ```
+
+* urlcrazy
+``` urlcrazy [url]
+```
 ### Network and port scanner
 * nmap
 
