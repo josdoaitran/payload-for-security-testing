@@ -129,7 +129,8 @@ facebook.com.		266	IN	A	157.240.13.35
 ```
 
 * urlcrazy
-``` urlcrazy [url]
+``` 
+urlcrazy [url]
 ```
 _Example_
 ```
