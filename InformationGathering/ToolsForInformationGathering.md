@@ -100,7 +100,7 @@ http://google.com [301 Moved Permanently] Country[UNITED STATES][US], HTTPServer
 http://www.google.com/ [200 OK] Cookies[1P_JAR,NID], Country[UNITED STATES][US], HTML5, HTTPServer[gws], HttpOnly[NID], IP[216.58.199.4], Script, Title[Google], X-Frame-Options[SAMEORIGIN], X-XSS-Protection[1; mode=block]
 
 ```
-*dig
+* dig
 ```
 dig [url]
 ```
