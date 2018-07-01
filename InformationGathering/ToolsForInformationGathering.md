@@ -131,6 +131,32 @@ facebook.com.		266	IN	A	157.240.13.35
 * urlcrazy
 ``` urlcrazy [url]
 ```
+_Example_
+```
+oaitran@kali:~$ urlcrazy google.com
+/usr/share/urlcrazy/tld.rb:81: warning: key "2nd_level_registration" is duplicated and overwritten on line 81
+/usr/share/urlcrazy/tld.rb:89: warning: key "2nd_level_registration" is duplicated and overwritten on line 89
+/usr/share/urlcrazy/tld.rb:91: warning: key "2nd_level_registration" is duplicated and overwritten on line 91
+URLCrazy Domain Report
+Domain    : google.com
+Keyboard  : qwerty
+At        : 2018-07-01 12:18:40 +0700
+
+# Please wait. 87 hostnames to process
+
+Typo Type                     Typo           DNS-A            CC-A              DNS-MX                                Extn  
+----------------------------------------------------------------------------------------------------------------------------
+Character Omission            gogle.com      172.217.161.164  US,UNITED STATES                                        com   
+Character Omission            googe.com      162.243.10.151                                                           com   
+Character Omission            googl.com      172.217.161.164  US,UNITED STATES                                        com   
+Character Omission            google.cm      172.217.161.163  US,UNITED STATES  aspmx.l.google.com                    cm    
+Character Omission            goole.com      87.106.83.127    DE,GERMANY        mx01.1and1.co.uk                      com   
+Character Repeat              ggoogle.com    172.217.161.164  ��,                                                     com   
+Character Repeat              googgle.com                     ?                                                       com   
+Character Repeat              googlee.com    172.217.161.164  US,UNITED STATES                                        com   
+Character Repeat              googlle.com    54.221.207.100   US,UNITED STATES  mx94.mb1p.com                         c
+```
+
 ### Network and port scanner
 * nmap
 
