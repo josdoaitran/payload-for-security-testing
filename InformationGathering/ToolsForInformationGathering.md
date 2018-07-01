@@ -158,6 +158,26 @@ Character Repeat              googlee.com    172.217.161.164  US,UNITED STATES  
 Character Repeat              googlle.com    54.221.207.100   US,UNITED STATES  mx94.mb1p.com                         c
 ```
 
+* Matasploit
+``` 
+msfconsole
+msf> whois bdtime.com
+```
+_Example_
+```
+msf > whois bdtime.com
+[*] exec: whois bdtime.com
+
+   Domain Name: BDTIME.COM
+   Registry Domain ID: 1839746399_DOMAIN_COM-VRSN
+   Registrar WHOIS Server: whois.namebright.com
+   Registrar URL: http://www.NameBright.com
+   Updated Date: 2017-12-20T08:38:02Z
+   Creation Date: 2013-12-19T19:01:54Z
+   Registry Expiry Date: 2018-12-19T19:01:54Z
+   Registrar: EchoDomain LLC
+
+```
 ### Network and port scanner
 * nmap
 
