@@ -178,6 +178,44 @@ msf > whois bdtime.com
    Registrar: EchoDomain LLC
 
 ```
+Try to exploit:
+```
+nslookup url
+nmap -sS -Pn Public IP -vv
+```
+_Example_
+```
+msf > nslookup bdtimes.com
+[*] exec: nslookup bdtimes.com
+
+Server:		192.168.1.12
+Address:	192.168.1.12#53
+
+Non-authoritative answer:
+Name:	bdtimes.com
+Address: 66.198.240.42
+msf > sudo nmap -sS -Pn 66.198.240.42 -vv
+[*] exec: sudo nmap -sS -Pn 66.198.240.42 -vv
+
+[sudo] password for doaitran: 
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-07-01 12:47 +07
+Initiating Parallel DNS resolution of 1 host. at 12:47
+Completed Parallel DNS resolution of 1 host. at 12:47, 0.04s elapsed
+Initiating SYN Stealth Scan at 12:47
+Scanning a2ss51.a2hosting.com (66.198.240.42) [1000 ports]
+Discovered open port 110/tcp on 66.198.240.42
+Discovered open port 993/tcp on 66.198.240.42
+Discovered open port 587/tcp on 66.198.240.42
+Discovered open port 443/tcp on 66.198.240.42
+Discovered open port 995/tcp on 66.198.240.42
+Discovered open port 3306/tcp on 66.198.240.42
+Discovered open port 53/tcp on 66.198.240.42
+Discovered open port 143/tcp on 66.198.240.42
+Discovered open port 21/tcp on 66.198.240.42
+Discovered open port 25/tcp on 66.198.240.42
+
+```
 ### Network and port scanner
 * nmap
 
