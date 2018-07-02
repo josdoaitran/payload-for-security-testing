@@ -109,3 +109,26 @@ Enter URL: sstectutorials.com
 https://sstectutorials.com/
 
 ```
+* Traceroute
+```
+10. Traceroute
+11. Exit
+Enter your choice: 10
+Enter Domain or IP Address: sstectutorials.com 
+Start: Mon Jul  2 09:38:19 2018
+HOST: whatweb                                   Loss%   Snt   Last   Avg  Best  Wrst StDev
+  1.|-- 45.55.64.254                               0.0%     3    1.3   0.7   0.2   1.3   0.0
+  2.|-- 138.197.251.22                             0.0%     3    0.3   0.8   0.3   1.2   0.0
+  3.|-- 138.197.244.34                             0.0%     3    0.9   0.9   0.9   1.0   0.0
+  4.|-- ce-0-4-0-3.r08.nycmny01.us.bb.gin.ntt.net  0.0%     3    1.2   1.2   1.2   1.2   0.0
+  5.|-- ae-3.r24.nycmny01.us.bb.gin.ntt.net        0.0%     3   14.3   6.2   2.1  14.3   7.0
+  6.|-- ae-4.r22.sttlwa01.us.bb.gin.ntt.net        0.0%     3   66.0  68.7  66.0  71.4   2.5
+  7.|-- ae-0.r23.sttlwa01.us.bb.gin.ntt.net        0.0%     3   64.3  62.1  60.8  64.3   1.9
+  8.|-- ae-3.r23.snjsca04.us.bb.gin.ntt.net        0.0%     3   82.7  82.7  82.7  82.8   0.0
+  9.|-- 192.80.16.179                              0.0%     3   80.6  80.7  80.6  80.7   0.0
+ 10.|-- 107.154.13.242.ip.incapdns.net             0.0%     3   84.6  84.6  84.5  84.6   0.0
+ 11.|-- ???                                       100.0     3    0.0   0.0   0.0   0.0   0.0
+ 12.|-- 199.193.7.158                              0.0%     3   93.6  93.7  93.5  94.0   0.0
+ 13.|-- server254-1.web-hosting.com                0.0%     3   95.4  95.3  94.8  95.7   0.0
+
+```
