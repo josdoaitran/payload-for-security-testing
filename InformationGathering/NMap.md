@@ -29,8 +29,17 @@ These are all default scans, which will scan 1000 TCP ports. Host discovery will
 * Scan using TCP SYN scan (default)	  ```nmap -sS 192.168.1.1```
 * Scan UDP ports	  ```nmap -sU -p 123,161,162 192.168.1.1```
 * Scan selected ports - ignore discovery	  ```nmap -Pn -F 192.168.1.1```
+
 ## Service and OS Detection
 * Detect OS and Services	```nmap -A 192.168.1.1```
 * Standard service detection	```nmap -sV 192.168.1.1```
 * More aggressive Service Detection	```nmap -sV --version-intensity 5 192.168.1.1```
 * Lighter banner grabbing detection	```nmap -sV --version-intensity 0 192.168.1.1```
+
+## Nmap Output Formats
+* Save default output to file	```nmap -oN outputfile.txt 192.168.1.1```
+* Save results as XML	```nmap -oX outputfile.xml 192.168.1.1```
+* Save results in a format for grep	```nmap -oG outputfile.txt 192.168.1.1```
+* Save in all formats	```nmap -oA outputfile 192.168.1.1```
+*
+The default format could also be saved to a file using a simple file redirect command > file. Using the -oN option allows the results to be saved but also can be monitored in the terminal as the scan is under way.
