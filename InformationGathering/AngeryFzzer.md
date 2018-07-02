@@ -31,5 +31,7 @@ usage : python angryFuzzer.py -h
 ## Scan
 
 ```
-python angryFuzzer.py -u https://google.com
+python angryFuzzer.py -u https://google.com'
+//Scan csm: wp, dp
+python angryFuzzer.py -u https://google.com --csm wp
 ```
