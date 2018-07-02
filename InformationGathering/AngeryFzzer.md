@@ -6,6 +6,7 @@ https://github.com/ihebski/angryFuzzer
 
 ```
 ## Statrt app:
+```
 oaitran@kali:~/Documents/Tools/angryFuzzer$ ls -ltr
 total 24
 -rw-r--r-- 1 doaitran doaitran 1738 Jul  2 15:09 README.md
@@ -25,3 +26,4 @@ doaitran@kali:~/Documents/Tools/angryFuzzer$ python angryFuzzer.py
 ===========================================> by Sold1er 
 
 usage : python angryFuzzer.py -h
+```
