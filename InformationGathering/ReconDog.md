@@ -76,3 +76,24 @@ sstectutorials.com.	1800	IN	MX	20 eforward5.registrar-servers.com.
 sstectutorials.com.	1800	IN	NS	pdns1.registrar-servers.com.
 sstectutorials.com.	1800	IN	MX	15 eforward4.registrar-servers.com.
 ```
+* Port scan
+```
+Enter your choice: 4
+Enter Domain or IP Address: sstectutorials.com
+
+Starting Nmap 7.01 ( https://nmap.org ) at 2018-07-02 09:28 UTC
+Nmap scan report for sstectutorials.com (198.54.114.169)
+Host is up (0.072s latency).
+rDNS record for 198.54.114.169: server254-1.web-hosting.com
+PORT     STATE    SERVICE        VERSION
+21/tcp   open     ftp            Pure-FTPd
+22/tcp   filtered ssh
+23/tcp   filtered telnet
+80/tcp   open     http-proxy     HAProxy http proxy
+110/tcp  open     pop3           Dovecot pop3d
+143/tcp  open     imap           Dovecot imapd
+443/tcp  open     ssl/http-proxy HAProxy http proxy
+3389/tcp filtered ms-wbt-server
+Service Info: Device: load balancer
+
+```
