@@ -43,3 +43,12 @@ These are all default scans, which will scan 1000 TCP ports. Host discovery will
 * Save in all formats	```nmap -oA outputfile 192.168.1.1```
 *
 The default format could also be saved to a file using a simple file redirect command > file. Using the -oN option allows the results to be saved but also can be monitored in the terminal as the scan is under way.
+
+## Digging deeper with NSE Scripts
+* Scan using default safe scripts	`nmap -sV -sC 192.168.1.1`
+* Get help for a script	`nmap --script-help=ssl-heartbleed`
+* Scan using a specific NSE script	`nmap -sV -p 443 –script=ssl-heartbleed.nse 192.168.1.1`
+* Scan with a set of scripts	`nmap -sV --script=smb* 192.168.1.1`
+
+According to my Nmap install there are currently 471 NSE scripts. The scripts are able to perform a wide range of security related testing and discovery functions. If you are serious about your network scanning you really should take the time to get familiar with some of them.
+
