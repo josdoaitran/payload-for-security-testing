@@ -5,7 +5,7 @@
 https://github.com/ihebski/angryFuzzer
 
 ```
-## Statrt app:
+## Statrt app
 ```
 oaitran@kali:~/Documents/Tools/angryFuzzer$ ls -ltr
 total 24
@@ -26,4 +26,10 @@ doaitran@kali:~/Documents/Tools/angryFuzzer$ python angryFuzzer.py
 ===========================================> by Sold1er 
 
 usage : python angryFuzzer.py -h
+```
+
+## Scan
+
+```
+python angryFuzzer.py -u https://google.com
 ```
