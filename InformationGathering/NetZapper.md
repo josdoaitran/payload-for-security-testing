@@ -65,3 +65,17 @@ PORT	STATUS
 139	OPEN
 
 ```
+### OS Detect
+```
+Hosts Discovery
+2.Ports Scanning
+3.OS Detection
+4.Brute Force SSH
+Press ctrl+c to exit...
+
+Enter choice: 3
+
+Enter Target IP: 172.16.12.236
+
+172.16.12.236 belongs to Windows family...
+```
