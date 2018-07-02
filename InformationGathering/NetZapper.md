@@ -31,3 +31,15 @@ NetZapper$ python Net_Zapper_1.py
 Press ctrl+c to exit...
 
 ```
+### Options
+* Host Discovery
+Enter network octects (net id) of ip e.g 192.168.10.*: 172.16.12.*
+
+		Live Hosts are.....
+
+
+ IP ADDRESS		  MAC ADDRESS
+
+172.16.12.1		00:0c:29:84:a7:f9
+172.16.12.2		00:0c:29:84:a7:f9
+172.16.12.3		c8:be:19:51:0f:fc
