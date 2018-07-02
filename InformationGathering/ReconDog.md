@@ -97,3 +97,15 @@ PORT     STATE    SERVICE        VERSION
 Service Info: Device: load balancer
 
 ```
+* Link Grabber
+```
+ots.txt Scanner
+8. Link Grabber
+9. IP Location Finder
+10. Traceroute
+11. Exit
+Enter your choice: 8
+Enter URL: sstectutorials.com  
+https://sstectutorials.com/
+
+```
