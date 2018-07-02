@@ -67,7 +67,7 @@ Link: https://www.owasp.org/index.php/Top_10-2017_Top_10
 
 ## Questions:
 
-
+* What is vulnerabilities ?
 
 ## References:
 - https://github.com/swisskyrepo/PayloadsAllTheThings
