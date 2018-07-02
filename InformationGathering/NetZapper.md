@@ -9,3 +9,10 @@ Url: https://github.com/NetZapper/NetZapper
 ```
 git clone https://github.com/NetZapper/NetZapper.git
 ```
+
+### Start NetZapper
+Go to NetZapper folder and Run
+``` 
+cd NetZapper
+chmod + x Net_Zapper_1.py
+python Net_Zapper_1.py
