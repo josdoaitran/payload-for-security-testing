@@ -15,6 +15,8 @@ Encoding and double encoding:
 ..%255c represents ..\ and so on. 
 ,,,
 
+Nginx server
+
 # Reference
 
 * https://www.owasp.org/index.php/Path_Traversal
