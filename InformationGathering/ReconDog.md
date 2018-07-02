@@ -31,4 +31,48 @@ python dog.py
 11. Exit
 
 ```
-
+* Whois Lookup
+```
+Enter your choice: 1
+Enter Domain or IP Address: Google.com
+   Domain Name: GOOGLE.COM
+   Registry Domain ID: 2138514_DOMAIN_COM-VRSN
+   Registrar WHOIS Server: whois.markmonitor.com
+   Registrar URL: http://www.markmonitor.com
+   Updated Date: 2018-02-21T18:36:40Z
+   Creation Date: 1997-09-15T04:00:00Z
+   Registry Expiry Date: 2020-09-14T04:00:00Z
+   Registrar: MarkMonitor Inc.
+   Registrar IANA ID: 292
+   Registrar Abuse Contact Email: abusecomplaints@markmonitor.com
+   Registrar Abuse Contact Phone: +1.2083895740
+   Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+   Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+   Domain Status: serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited
+   Domain Status: serverTransferProhibited https://icann.org/epp#serverTransferProhibited
+   Domain Status: serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited
+   Name Server: NS1.GOOGLE.COM
+   Name Server: NS2.GOOGLE.COM
+   Name Server: NS3.GOOGLE.COM
+   Name Server: NS4.GOOGLE.COM
+   DNSSEC: unsigned
+   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+>>> Last update of whois database: 2018-07-02T09:23:05Z <<<
+```
+* DNS Lookup + Cloudflare Detector
+```
+Enter your choice: 2
+Enter Domain: sstectutorials.com
+;; Truncated, retrying in TCP mode.
+sstectutorials.com.	3601	IN	SOA	pdns1.registrar-servers.com. hostmaster.registrar-servers.com. 2018030304 43200 3600 604800 3601
+sstectutorials.com.	1800	IN	MX	10 eforward2.registrar-servers.com.
+sstectutorials.com.	1800	IN	TXT	"v=spf1 include:spf.efwd.registrar-servers.com ~all"
+sstectutorials.com.	1800	IN	A	198.54.114.169
+sstectutorials.com.	1800	IN	NS	pdns2.registrar-servers.com.
+sstectutorials.com.	1800	IN	MX	10 eforward1.registrar-servers.com.
+sstectutorials.com.	1800	IN	MX	10 eforward3.registrar-servers.com.
+sstectutorials.com.	1800	IN	MX	20 eforward5.registrar-servers.com.
+sstectutorials.com.	1800	IN	NS	pdns1.registrar-servers.com.
+sstectutorials.com.	1800	IN	MX	15 eforward4.registrar-servers.com.
+```
