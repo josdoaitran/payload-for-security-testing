@@ -29,3 +29,8 @@ These are all default scans, which will scan 1000 TCP ports. Host discovery will
 * Scan using TCP SYN scan (default)	  ```nmap -sS 192.168.1.1```
 * Scan UDP ports	  ```nmap -sU -p 123,161,162 192.168.1.1```
 * Scan selected ports - ignore discovery	  ```nmap -Pn -F 192.168.1.1```
+## Service and OS Detection
+* Detect OS and Services	```nmap -A 192.168.1.1```
+* Standard service detection	```nmap -sV 192.168.1.1```
+* More aggressive Service Detection	```nmap -sV --version-intensity 5 192.168.1.1```
+* Lighter banner grabbing detection	```nmap -sV --version-intensity 0 192.168.1.1```
