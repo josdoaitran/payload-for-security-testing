@@ -55,3 +55,12 @@ According to my Nmap install there are currently 471 NSE scripts. The scripts ar
 The option `--script-help=$scriptname` will display help for the individual scripts. To get an easy list of the installed scripts try `locate nse | grep script`.
 
 You will notice I have used the `-sV` service detection parameter. Generally most NSE scripts will be more effective and you will get better coverage by including service detection.
+
+## A scan to search for DDOS reflection UDP services
+* Scan for UDP DDOS reflectors	
+```
+nmap –sU –A –PN –n –pU:19,53,123,161 –script=ntp-monlist,dns-recursion,snmp-sysdescr 192.168.1.0/24 
+```
+
+UDP based DDOS reflection attacks are a common problem that network defenders come up against. This is a handy Nmap command that will scan a target list for systems with open UDP services that allow these attacks to take place. Full details of the command and the background can be found on the Sans Institute Blog where it was first posted.
+
