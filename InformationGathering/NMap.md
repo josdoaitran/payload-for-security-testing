@@ -64,3 +64,9 @@ nmap –sU –A –PN –n –pU:19,53,123,161 –script=ntp-monlist,dns-recursi
 
 UDP based DDOS reflection attacks are a common problem that network defenders come up against. This is a handy Nmap command that will scan a target list for systems with open UDP services that allow these attacks to take place. Full details of the command and the background can be found on the Sans Institute Blog where it was first posted.
 
+## HTTP Service Information
+* Gather page titles from HTTP services	``` nmap --script=http-title 192.168.1.0/24 ```
+* Get HTTP headers of web services	``` nmap --script=http-headers 192.168.1.0/24 ```
+* Find web apps from known paths	``` nmap --script=http-enum 192.168.1.0/24 ```
+
+There are many HTTP information gathering scripts, here are a few that are simple but helpful when examining larger networks. Helps in quickly identifying what the HTTP service is that is running on the open port. Note the http-enum script is particularly noisy. It is similar to Nikto in that it will attempt to enumerate known paths of web applications and scripts. This will inevitably generated hundreds of 404 HTTP responses in the web server error and access logs.
