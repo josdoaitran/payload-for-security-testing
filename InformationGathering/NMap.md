@@ -71,7 +71,7 @@ UDP based DDOS reflection attacks are a common problem that network defenders co
 
 There are many HTTP information gathering scripts, here are a few that are simple but helpful when examining larger networks. Helps in quickly identifying what the HTTP service is that is running on the open port. Note the http-enum script is particularly noisy. It is similar to Nikto in that it will attempt to enumerate known paths of web applications and scripts. This will inevitably generated hundreds of ``404 HTTP responses`` in the web server error and access logs.
 
-** Detect Heartbleed SSL Vulnerability
+##  Detect Heartbleed SSL Vulnerability
 * Heartbleed Testing	```nmap -sV -p 443 --script=ssl-heartbleed 192.168.1.0/24```
 
 Heartbleed detection is one of the available SSL scripts. It will detect the presence of the well known Heartbleed vulnerability in SSL services. Specify alternative ports to test SSL on mail and other protocols (Requires Nmap 6.46).
