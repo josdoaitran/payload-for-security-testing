@@ -28,12 +28,12 @@ Note that web containers perform one level of decoding on percent encoded values
 
 * OS specific
 
-_UNIX
+_UNIX_
 ```
 Root directory:  “ / “ 
 Directory separator: “ / “
 ```
-_WINDOWS
+_WINDOWS_
 ```
 Root directory: “  <partition letter> : \ “
 Directory separator: “ / “ or “ \ ” 
