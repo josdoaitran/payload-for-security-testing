@@ -1,6 +1,7 @@
 # How to Test for Path Traversal Vulnerabilities
+
 See the OWASP Testing Guide article on how to Test for Path Traversal Vulnerabilities.
-Description
+* Description
 Request variations
 Encoding and double encoding:
 
@@ -15,7 +16,15 @@ Encoding and double encoding:
 ..%255c represents ..\ and so on. 
 ```
 
+## Local/Remote File Inclusion
 
+The File Inclusion vulnerability allows an attacker to include a file, usually exploiting a "dynamic file inclusion" mechanisms implemented in the target application.
+
+Interesting files to check out :
+
+```
+
+```
 
 # Reference
 
