@@ -2,7 +2,7 @@
 
 ## OWASP
 See the OWASP Testing Guide article on how to Test for Path Traversal Vulnerabilities.
-* _ Description _ *
+* _Description_
 * Request variations
 Encoding and double encoding:
 
@@ -19,9 +19,10 @@ Encoding and double encoding:
 * Percent encoding (aka URL encoding)
 
 Note that web containers perform one level of decoding on percent encoded values from forms and URLs.
-
+```
 ..%c0%af represents ../ 
 ..%c1%9c represents ..\ 
+```
 ## Local/Remote File Inclusion
 
 The File Inclusion vulnerability allows an attacker to include a file, usually exploiting a "dynamic file inclusion" mechanisms implemented in the target application.
