@@ -2,7 +2,7 @@
 
 ## OWASP
 See the OWASP Testing Guide article on how to Test for Path Traversal Vulnerabilities.
-**_Description**
+**_ Description**
 * Request variations
 Encoding and double encoding:
 
