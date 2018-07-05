@@ -37,8 +37,14 @@ _WINDOWS_
 ```
 Root directory: “  <partition letter> : \ “
 Directory separator: “ / “ or “ \ ” 
-```
 Note that windows allows filenames to be followed by extra . \ / characters.
+```
+In many operating systems, null bytes %00 can be injected to terminate the filename. For example, sending a parameter like:
+```
+?file=secret.doc%00.pdf
+```
+
+will result in the Java application seeing a string that ends with ".pdf" and the operating system will see a file that ends in ".doc". Attackers may use this trick to bypass validation routines.
 
 ## Local/Remote File Inclusion
 
