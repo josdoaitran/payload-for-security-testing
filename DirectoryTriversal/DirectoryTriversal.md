@@ -26,6 +26,20 @@ Note that web containers perform one level of decoding on percent encoded values
 ..%c1%9c represents ..\ 
 ```
 
+* OS specific
+
+_UNIX
+```
+Root directory:  “ / “ 
+Directory separator: “ / “
+```
+_WINDOWS
+```
+Root directory: “  <partition letter> : \ “
+Directory separator: “ / “ or “ \ ” 
+```
+Note that windows allows filenames to be followed by extra . \ / characters.
+
 ## Local/Remote File Inclusion
 
 The File Inclusion vulnerability allows an attacker to include a file, usually exploiting a "dynamic file inclusion" mechanisms implemented in the target application.
