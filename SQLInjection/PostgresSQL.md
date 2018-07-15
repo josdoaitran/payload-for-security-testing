@@ -19,7 +19,7 @@ SELECT /*comment*/1;
 ## PostgreSQL Time Based
 
 
-# ----------------------------------------------------------------------------------------------------
+# -------------------------------------------------------------------------------
 
 Version	
 ``` 
@@ -37,6 +37,14 @@ SELECT current_user;
 SELECT session_user;
 SELECT usename FROM pg_user;
 SELECT getpgusername();
+```
+List Users	
+```
+SELECT usename FROM pg_user
+```
+List Password Hashes
+```
+SELECT usename, passwd FROM pg_shadow — priv
 ```
 
 ## References:
