@@ -46,5 +46,18 @@ List Password Hashes
 ```
 SELECT usename, passwd FROM pg_shadow — priv
 ```
+Password Cracker	
+```
+MDCrack can crack PostgreSQL’s MD5-based passwords.
+```
+List Privileges	
+```
+SELECT usename, usecreatedb, usesuper, usecatupd FROM pg_user
+```
+List DBA Accounts
+```
+SELECT usename FROM pg_user WHERE usesuper IS TRUE
+```
+
 
 ## References:
