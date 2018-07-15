@@ -19,4 +19,24 @@ SELECT /*comment*/1;
 ## PostgreSQL Time Based
 
 
+# ----------------------------------------------------------------------------------------------------
+
+Version	
+``` 
+SELECT version()
+```
+Comments	
+```
+SELECT 1; –comment
+SELECT /*comment*/1;
+```
+Current User	
+```
+SELECT user;
+SELECT current_user;
+SELECT session_user;
+SELECT usename FROM pg_user;
+SELECT getpgusername();
+```
+
 ## References:
