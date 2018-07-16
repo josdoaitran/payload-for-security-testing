@@ -32,6 +32,7 @@ or true--
 ```
 
 ## _SQL Injection using SQLMap_
+(SQL link)[https://github.com/josdoaitran/PayloadForSecurityTesting/blob/master/SQLMap.md]
 
 ## _DBMS Identification_
 
