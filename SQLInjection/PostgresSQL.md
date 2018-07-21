@@ -119,7 +119,8 @@ SELECT ‘A’ || ‘B’; — returnsAB
 IF statements only seem valid inside functions, so aren’t much use for SQL injection.  See CASE statement instead.
 ```
 ### Case Statement	
-``` SELECT CASE WHEN (1=1) THEN ‘A’ ELSE ‘B’ END; — returns A
+``` 
+SELECT CASE WHEN (1=1) THEN ‘A’ ELSE ‘B’ END; — returns A
 ```
 ### Avoiding Quotes	
 ```
