@@ -114,5 +114,16 @@ SELECT CAST(’1′ as int);
 ```
 SELECT ‘A’ || ‘B’; — returnsAB
 ```
+### If Statement	
+```
+IF statements only seem valid inside functions, so aren’t much use for SQL injection.  See CASE statement instead.
+```
+### Case Statement	
+``` SELECT CASE WHEN (1=1) THEN ‘A’ ELSE ‘B’ END; — returns A
+```
+### Avoiding Quotes	
+```
+SELECT CHR(65)||CHR(66); — returns AB
+```
 ## References:
 http://pentestmonkey.net/cheat-sheet/sql-injection/postgres-sql-injection-cheat-sheet
