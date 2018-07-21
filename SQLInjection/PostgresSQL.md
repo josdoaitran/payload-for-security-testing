@@ -97,6 +97,22 @@ SELECT substr(‘abcd’, 3, 1); — returns c
 SELECT 6 & 2; — returns 2
 SELECT 6 & 1; –returns 0
 ```
-
+### ASCII Value -> Char	
+```
+SELECT chr(65);
+```
+### Char -> ASCII Value	
+```
+SELECT ascii(‘A’);
+```
+### Casting	
+```
+SELECT CAST(1 as varchar);
+SELECT CAST(’1′ as int);
+```
+### String Concatenation	
+```
+SELECT ‘A’ || ‘B’; — returnsAB
+```
 ## References:
 http://pentestmonkey.net/cheat-sheet/sql-injection/postgres-sql-injection-cheat-sheet
